@@ -12,4 +12,4 @@ usage() {
 }
 
 ENVFILE=$1
-sed -i 's/--node-labels=/--node-lables=${FIRST_BOOT_ONLY_KUBELET_NODE_EXTRA_LABELS},/' $ENVFILE
+sed -i 's/--node-labels=/--node-labels=${FIRST_BOOT_ONLY_KUBELET_NODE_EXTRA_LABELS},/' $ENVFILE
